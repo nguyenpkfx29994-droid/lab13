@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN+Guides&display=swap');
+
+/*Carousel*/
+#bg-img1 {
+    background-color: #000;
+    background-size: cover;
+    background-image: url("filler1.jpg");
+}
+
+#bg-img2 {
+    background-color: #666;
+    background-size: cover;
+    background-image: url("filler2.jpg");
+}
+
+#bg-img3 {
+    background-color: #606;
+    background-size: cover;
+    background-image: url("filler3.jpg");
+}
+
+#bg-img1,
+#bg-img2,
+#bg-img3 {
+    height: 500px;
+    width: 100%;
+}
+
+/*Footer*/
+a {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 25px 10px;
+}
+
+.left {
+    display: inline-block;
+}
+
+.right {
+    text-align: right;
+}
+
+/*Misc.*/
+.content {
+    height: 100px;
+}
+
+.header {
+    background-color: rgb(51, 51, 51);
+}
+
+body {
+    font-family: "Playwrite VN Guides";
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
